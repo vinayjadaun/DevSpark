@@ -1,0 +1,129 @@
+body{
+    margin:0px;
+    padding:0px;
+
+.Navbar{
+    padding-top:10px;
+    height:85px;
+    width:100vw;
+    background-color:rgb(255, 255, 255);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    .contents{
+        height:80px;
+        width:98vw;
+        background-color:rgb(255, 255, 255);
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        .Nav-left{
+            height:80px;
+            width:250px;
+            background-color:rgb(255, 255, 255);
+            overflow:hidden;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            img{
+                height:70px;
+                width:175px;
+            }
+
+        }
+        .Nav-center{
+            background-color:rgb(255, 255, 255);
+            height:80px;
+            width:600px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            .searchbox{
+                height:35px;
+                width:470px;
+                background-color:white;
+                padding:0 20px 0 20px;
+                border-top-left-radius:6px;
+                border-bottom-left-radius:6px;
+                border:1px solid rgb(180, 180, 180);
+                outline:none;
+
+               
+
+            }
+            .searchbtn{
+                height:35px;
+                width:90px;
+                background-color:rgb(25, 157, 229);
+                color:rgb(255, 255, 255);
+                outline:none;
+                border:1px solid rgb(20, 171, 121);
+                border-top-right-radius:6px;
+                border-bottom-right-radius:6px;
+                
+            }
+           
+        }
+        .Nav-right{
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            background-color:rgb(255, 255, 255);
+            height:80px;
+            width:400px;
+            padding-right:45px;
+            .fa-solid{
+                font-size:14px;
+            }
+            .fa-regular{
+                font-size:17px;
+            }
+            .accname{
+                font-size:15px;
+            }
+            .acc{
+                height:48px;
+                width:48px;
+                border-radius:50%;
+                background-color:white;
+                color:black;
+                outline:none;
+                border: 1px rgb(0, 0, 0) solid;
+                cursor:pointer;
+
+            }
+            
+
+        }
+    }
+
+}
+}
+.accsec{
+    height:400px;
+    width:300px;
+    background-color:grey;
+    position:absolute;
+    top:70px;
+    right: 100px;
+    border-radius:18px;
+    transition:1.6s all ease-in-out;
+    cursor:pointer;
+    .closesec{
+        font-size:20px;
+        float:right;
+        outline:none;
+        border:0px;
+        background-color:transparent;
+        color:black;
+        margin-right:10px;
+        margin-top:10px;
+        cursor:pointer;
+    }
+
+}
+
+.nonesec{
+    display:none;
+    transition:1.6s all ease-in-out;
+}
